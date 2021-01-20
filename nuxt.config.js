@@ -19,6 +19,10 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
+        rel: 'preconnect',
+        href: 'https://fonts.gstatic.com',
+      },
+      {
         rel: 'stylesheet',
         href:
           'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,600;1,300;1,600&display=swap',
@@ -27,7 +31,7 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['@/assets/styles/main.scss'],
+  css: ['~/assets/styles/main.scss'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -51,8 +55,6 @@ export default {
         component: 'fa',
         imports: [
           // import 2 icons from set
-          // please note this is PRO set in this example,
-          // you must have it in your node_modules to actually import
           {
             set: '@fortawesome/fontawesome-free-regular',
             icons: ['faGem'],

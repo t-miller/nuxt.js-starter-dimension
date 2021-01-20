@@ -1,7 +1,7 @@
 <template>
   <header id="header">
     <div class="logo">
-      <font-awesome-icon :icon="faGem" />
+      <font-awesome-icon :icon="faGem" transform="grow-18" />
     </div>
     <div class="content">
       <div class="inner">
