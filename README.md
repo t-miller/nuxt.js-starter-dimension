@@ -1,6 +1,10 @@
-# nuxtjs-starter-dimension
+# Nuxt.js Starter - Dimension
 
 A Nuxt.js starter translated from the Dimension site template designed by [HTML5 UP](https://html5up.net/).
+
+## Preview
+
+https://zen-borg-2e0676.netlify.app/
 
 ## Build Setup
 
