@@ -3,7 +3,7 @@
     class="body"
     :class="[loading, isArticleVisible ? 'is-article-visible' : '']"
   >
-    <div id="wrapper" class="container">
+    <div id="wrapper">
       <Header v-if="!timeout" @open-article="onOpenArticle" />
       <Main
         v-if="timeout"
@@ -30,7 +30,9 @@ export default {
   },
   mounted() {
     this.$nextTick(function () {
-      this.loading = ''
+      setTimeout(() => {
+        this.loading = ''
+      }, 100)
     })
   },
   methods: {
