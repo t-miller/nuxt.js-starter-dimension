@@ -1,11 +1,15 @@
 <template>
   <div id="wrapper" class="container">
-    <Header />
+    <Header @open-article="onOpenArticle" />
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  methods: {
+    onOpenArticle(label) {},
+  },
+}
 </script>
 
 <style>
