@@ -11,8 +11,10 @@
     "lint": "yarn lint:js"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free-regular": "^5.0.13",
     "core-js": "^3.8.2",
-    "nuxt": "^2.14.12"
+    "nuxt": "^2.14.12",
+    "nuxt-fontawesome": "^0.4.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^5.0.0",

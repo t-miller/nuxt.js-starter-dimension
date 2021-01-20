@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'nuxtjs-starter-dimension',
+    title: 'Nuxt.js Starter',
     htmlAttrs: {
       lang: 'en',
     },
@@ -35,7 +35,25 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: [
+    'nuxt-fontawesome',
+    // OR like this
+    [
+      'nuxt-fontawesome',
+      {
+        component: 'fa',
+        imports: [
+          // import 2 icons from set
+          // please note this is PRO set in this example,
+          // you must have it in your node_modules to actually import
+          {
+            set: '@fortawesome/fontawesome-free-regular',
+            icons: ['faGem'],
+          },
+        ],
+      },
+    ],
+  ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
