@@ -46,23 +46,7 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-    'nuxt-fontawesome',
-    // OR like this
-    [
-      'nuxt-fontawesome',
-      {
-        component: 'fa',
-        imports: [
-          // import 2 icons from set
-          {
-            set: '@fortawesome/fontawesome-free-regular',
-            icons: ['faGem'],
-          },
-        ],
-      },
-    ],
-  ],
+  modules: ['nuxt-fontawesome'],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
