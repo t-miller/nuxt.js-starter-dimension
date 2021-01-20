@@ -1,5 +1,7 @@
 # nuxtjs-starter-dimension
 
+A Nuxt.js starter translated from the Dimension site template designed by [HTML5 UP](https://html5up.net/).
+
 ## Build Setup
 
 ```bash
